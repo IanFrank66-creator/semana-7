@@ -1,12 +1,10 @@
+Al consultar la ruta GET /reportes después de haber enviado un nuevo registro mediante el método POST, el servidor responde devolviendo una lista o arreglo que contiene todos los reportes ciudadanos almacenados temporalmente en la memoria del sistema.
+
+Ejemplo de respuesta esperada al consultar GET /reportes:
 [
   {
     "id": 1,
-    "tipo": "Infraestructura", 
-    "descripcion": "Daño en alumbrado público: Luminaria parpadeando en la Calle Principal con Carrera 5."
-  },
-  {
-    "id": 2,
-    "tipo": "Ambiente",
-    "descripcion": "Acumulación de residuos: Acumulación crítica de basura y escombros no autorizados en la zona verde del parque comunitario."
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
   }
 ]
